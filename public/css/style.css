@@ -1,0 +1,37 @@
+html{
+    color: #0c0c0c;
+    font-size: 16px;
+    font-family: 'M PLUS 2', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 1.4rem;
+    background-color: #49C6D4;
+    overscroll-behavior: none;
+}
+body{
+    background-color: #49C6D4;
+    overscroll-behavior: none;
+}
+.stroke{
+    text-shadow:
+           2px 2px 0px #ffffff, -2px -2px 0px #ffffff,
+          -2px 2px 0px #ffffff,  2px -2px 0px #ffffff,
+           2px 0px 0px #ffffff, -2px  0px 0px #ffffff,
+           0px 2px 0px #ffffff,  0px -2px 0px #ffffff;
+}
+.hidden{
+    display: none;
+}
+
+.showUp{
+    animation: showUp .6s;
+}
+
+@keyframes showUp {
+    from{
+        transform: translateY(20px);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
